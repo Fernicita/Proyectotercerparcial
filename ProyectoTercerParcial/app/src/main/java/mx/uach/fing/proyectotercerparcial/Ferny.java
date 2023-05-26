@@ -19,6 +19,6 @@ public class Ferny extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         // Cargar la página HTML desde el servidor local
-        webView.loadUrl("https://fernicita.github.io/");
+        webView.loadUrl("file:///android_asset/353256.html");
     }
 }
